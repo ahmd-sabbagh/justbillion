@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main Css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Main Css -->
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap-5.3.0-alpha1-dist/css/bootstrap.rtl.min.css" />
+    <!-- Bootstrap Css -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/plugins/fontawesome-free-6.3.0-web/css/all.min.css" />
+    <!-- Font Awesome -->
+    <!-- Owl Slick -->
+    <link rel="stylesheet" href="assets/plugins/owl/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/plugins/owl/assets/owl.theme.default.min.css" />
+    <!-- Owl Slick -->
+    <!-- Aos Css -->
+    <link rel="stylesheet" href="assets/plugins/aos-master/dist/aos.css">
+    <!-- Aos Css -->
+</head>
+
+<body>
+    <!-- Start Header -->
+    <section class="main-header position-sticky">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/index/logo.svg" alt="#" />
+                </a>
+                <div class="control-site order-lg-3 d-flex align-items-center gap-md-3 gap-2">
+                    <!-- Language -->
+                    <!-- web -->
+                    <div class="language dropdown dropdown-edit d-lg-flex align-items-center gap-2 d-none p-2">
+                        <span class="flex-c r-50 overflow-hidden flag">
+                            <img src="assets/icons/sudiArabia.svg" alt="" />
+                        </span>
+                        <span class="flex-c">العربية</span>
+                        <span class="flex-c rotate-icon dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"><i class="fa-solid fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu p-3">
+                            <div class="en d-flex align-items-center gap-2">
+                                <span class="flex-c r-50 overflow-hidden flag">
+                                    <img src="assets/icons/united-kingdom.png" alt="" />
+                                </span>
+                                <span class="flex-c">English</span>
+                            </div>
+                        </ul>
+                    </div>
+                    <!-- mobile -->
+                    <!-- ar -->
+                    <button
+                        class="mobile-icon-respons mobile-icon-respons-button d-flex align-items-center justify-content-center d-lg-none"><img
+                            src="assets/icons/sudiArabia.svg" alt="" /></button>
+                    <!-- en -->
+                    <button
+                        class="mobile-icon-respons mobile-icon-respons-button d-flex align-items-center justify-content-center d-lg-none d-none"><img
+                            src="assets/icons/united-kingdom.png" alt="" /></button>
+                    <!-- Cart -->
+                    <!-- web -->
+                    <a href="cart.html" class="text-dark cart-site d-lg-flex align-items-center gap-2 p-2 d-none">
+                        <span class="flex-c"><img src="assets/icons/cart.svg" alt="cart-icon" /></span>
+                        <span class="flex-c">السلة</span>
+                    </a>
+                    <!-- mobile -->
+                    <a href="cart.html"
+                        class="cart-site d-flex align-items-center justify-content-center p-2 d-lg-none mobile-icon-respons">
+                        <img src="assets/icons/cart-phone.svg" alt="cart-icon" />
+                    </a>
+                    <!-- Account -->
+                    <!-- web -->
+                    <div class="my-account dropdown dropdown-edit d-lg-flex align-items-center gap-2 p-2 d-none">
+                        <span class="flex-c"><img src="assets/icons/user.svg" alt="user-icon" /></span>
+                        <span class="flex-c">حسابي</span>
+                        <span class="flex-c rotate-icon dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"><i class="fa-solid fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu p-3">
+                            <div class="d-flex flex-column gap-2">
+                                <li>
+                                    <a class="dropdown-item d-flex align-items-center gap-2 px-1"
+                                        href="account-settings.html">
+                                        <span class="flex-c">
+                                            <img src="assets/icons/user-edit.svg" alt="user-setting-icon" />
+                                        </span>
+                                        <span class="flex-c">اعدادات الحساب</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="orders.html">
+                                        <span class="flex-c">
+                                            <img src="assets/icons/bag.svg" alt="bag-icon" />
+                                        </span>
+                                        <span class="flex-center"> طلباتي </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="#">
+                                        <span class="flex-c log-out-web">
+                                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                        </span>
+                                        <span class="flex-c">تسجيل خروج</span>
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                    <!-- mobile -->
+                    <div class="my-account dropdown dropdown-edit d-flex align-items-center gap-2 d-lg-none">
+                        <span class="flex-c dropdown-toggle mobile-icon-respons" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"><img src="assets/icons/user-phone.svg" alt="user-icon" /></span>
+                        <ul class="dropdown-menu start-0 translate-middle-x p-3">
+                            <div class="d-flex flex-column gap-2">
+                                <li>
+                                    <a class="dropdown-item d-flex align-items-center gap-2 px-1"
+                                        href="account-settings.html">
+                                        <span class="flex-c">
+                                            <img src="assets/icons/user-edit.svg" alt="user-setting-icon" />
+                                        </span>
+                                        <span class="flex-c">اعدادات الحساب</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="#">
+                                        <span class="flex-c">
+                                            <img src="assets/icons/bag.svg" alt="bag-icon" />
+                                        </span>
+                                        <span class="flex-center"> طلباتي </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="#">
+                                        <span class="flex-c">
+                                            <img src="assets/icons/3d-rotate.svg" alt="rotate-icon" />
+                                        </span>
+                                        <span class="flex-c">المرتجعات</span>
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                    <!-- Join Now -->
+                    <!-- web -->
+                    <a href="login.html"
+                        class="join-now fill-btn justify-content-center align-items-center d-none d-lg-flex">انضم
+                        الان</a>
+                    <!-- mobile -->
+                    <a href="login.html"
+                        class="mobile-icon-respons justify-content-center align-items-center d-none d-lg-none"><i
+                            class="fa-solid fa-arrow-right-to-bracket"></i></a>
+                </div>
+                <!-- Btn Menu -->
+                <button class="navbar-toggler p-1" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">الصفقات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="winners.html">الفائزين</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="how-sign-up.html">كيف يعمل ؟</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- End Header -->
+    <section class="main-breadcrumb d-flex justify-content-start align-items-center pt-4 bg-white">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item" aria-current="page">الرئيسية</li>
+                    <li class="breadcrumb-item" aria-current="page">تفاصيل الجائزة</li>
+                </ol>
+            </nav>
+    </section>
+    <!-- Start Cart Section -->
+    <section class="product-details-section prize-details  prize-details-2 pb-5 pt-4 bg-white">
+        <div class="landing-prize" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+            <div class="container py-5" >
+                <div class="image-prize flex-c">
+                    <img class="image-width" src="assets/images/prize-details/car-prize.png" alt="prize image">
+                </div>
+                <div class="mt-3 prize-icon d-flex align-items-end justify-content-end">
+                    <div class="name-prize"> Hundai Tusan 2023</div>
+                    <img class="image-width" src="assets/icons/win.svg" alt="icon">
+                </div>
+            </div>
+        </div>
+        <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="100">
+            <div
+                class="details d-flex flex-column-reverse justify-content-md-between align-items-center align-items-md-start gap-3 gap-md-0 flex-md-row mt-5">
+                <div class="info d-flex flex-column gap-5">
+                    <div class="head">
+                        <h3 class="title text-center text-sm-start">عند شرائك المنتج المعروض ستحصل على كود رقمي يأهلك
+                            للدخول على سحب للفوز بجائزة
+                            السيارة بعد انتهاء مدة الصفقة سنقوم بالاعلان عن الفائز</h3>
+                        <div data-end-time="22 مارس 2023" class="end-time mt-2">
+                            <span>وقت الانتهاء</span>
+                            : 22 مارس 2023
+                        </div>
+                    </div>
+                    <div class="buy-offer d-flex justify-content-between align-items-center">
+                        <div class="image">
+                            <img src="assets/images/card/product.png" alt="image offer" class="image-width">
+                        </div>
+                        <div class="text d-flex flex-column align-items-end">
+                            <span class="">
+                                <img src="assets/icons/buy.svg" alt="image" />
+                            </span>
+                            <h4 class="product-buy m-0">apple Smart Watch Ultra</h4>
+                            <h4 class="price m-0">200 $</h4>
+                        </div>
+                    </div>
+                    <div class="product-detail">
+                        <h3>تفاصيل الجائزة</h3>
+                        <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                            العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى هذا النص هو مثال لنص
+                            يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن
+                            تولد مثل هذا النص أو العديد من النصوص الأخرى هذا النص هو مثال لنص يمكن أن يستبدل في نفس
+                            المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                            العديد من النصوص الأخرى</p>
+                    </div>
+                    <div class="product-detail">
+                        <h3>تفاصيل المنتج</h3>
+                        <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                            العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى هذا النص هو مثال لنص
+                            يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن
+                            تولد مثل هذا النص أو العديد من النصوص الأخرى هذا النص هو مثال لنص يمكن أن يستبدل في نفس
+                            المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                            العديد من النصوص الأخرى</p>
+                    </div>
+                    <button class="flex-c border-btn join-the-deal" href="#">انضم للصفقة</button>
+                    <div class="btns-footer br-btn justify-content-between align-items-center gap-3">
+                        <div class="more-or-minus d-flex align-items-center gap-3">
+                            <button class="border-btn border-btn-minus flex-c">
+                                <i class="fa-solid fa-minus"></i>
+                            </button>
+                            <span class="quantity flex-c">1</span>
+                            <button class="border-btn border-btn-plus flex-c">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                        <div>
+                            <a href="#" class="fill-btn flex-c">أضف الى السلة</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="left d-flex flex-column gap-3 align-items-center">
+                    <div class="counter-time d-flex align-items-center gap-2" data-counter="Mar 30, 2023 23:59:59">
+                        <span class="minutes"></span> : <span class="hours"></span> :
+                        <span class="days"></span>
+                    </div>
+                    <div class="position-relative circle">
+                        <div class="progress-circle-value">
+                            <div class="circle_box">
+                                <div class="box">
+                                    <div class="skill">
+                                        <svg>
+                                            <circle cx="100" cy="100" r="80"></circle>
+                                            <circle class="progress" cx="100" cy="100" r="80" data-value="20"
+                                                data-stroke="#F44711">
+                                            </circle>
+                                        </svg>
+                                        <span class="data-progress" data-value="20"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="btn-ctrl mt-5">
+                <div class="d-flex gap-3 mb-3">
+                    <a href="#" class="border-btn flex-c">تفاصيل المنتج</a>
+                    <a href="#" class="border-btn flex-c">تفاصيل الجائزة</a>
+                </div>
+                <a href="#" class="fill-btn flex-c mx-auto">الانتقال الى الصفقة</a>
+            </div> -->
+        </div>
+    </section>
+    <!-- Start Footer -->
+    <section class="main-footer mt-5 bg-dark p-tb-50">
+        <div class="container text-white" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+            data-aos-duration="1000">
+            <div class="row justify-content-between align-items-center row-gap-5">
+                <div class="col-md-4 d-flex flex-column gap-3 align-items-center align-items-md-start">
+                    <div class="logo">
+                        <img src="assets/images/footer/footer-logo.svg" alt="" />
+                    </div>
+                    <p>
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+                        هذا
+                    </p>
+                    <div class="icons d-flex gap-3 align-tems-center justify-content-center justify-content-md-start">
+                        <a class="linked flex-c" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a class="instagram flex-c" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="twitter flex-c"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="facebook flex-c"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-7 d-flex justify-content-between gap-2">
+                    <div class="site d-flex flex-column gap-3">
+                        <h2>الموقع</h2>
+                        <ul class="p-0 d-flex flex-column gap-2">
+                            <li><a href="#">سياسة الخصوصية الاسترجاع</a></li>
+                            <li><a href="some-question.html">الاسئلة الشائعة</a></li>
+                        </ul>
+                    </div>
+                    <div class="important-links d-flex flex-column gap-3">
+                        <h2>روابط سريعة</h2>
+                        <ul class="p-0 d-flex flex-column gap-2">
+                            <li><a href="all-deals.html">الصفقات</a></li>
+                            <li><a href="winners.html">الفائزين</a></li>
+                            <li><a href="about-us.html">نبذة عنا</a></li>
+                            <li><a href="contact-us.html">تواصل معنا</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-us d-flex flex-column gap-3">
+                        <h2>تواصل معنا</h2>
+                        <div class="location d-flex gap-3 align-items-center">
+                            <span class="flex-c">
+                                <img src="assets/images/footer/icons/location.svg" alt="" />
+                            </span>
+                            <a href="#" class="flex-c">Dubai, Internet City</a>
+                        </div>
+                        <div class="sms d-flex gap-3 align-tems-center">
+                            <span class="flex-c">
+                                <img src="assets/images/footer/icons/sms.svg" alt="" />
+                            </span>
+                            <a href="#" class="flex-c">info@justbillion.com</a>
+                        </div>
+                        <div class="call d-flex gap-3 align-tems-center">
+                            <span class="flex-c">
+                                <img src="assets/images/footer/icons/Vector.svg" alt="" />
+                            </span>
+                            <a href="#" class="flex-c">+971 58 898 6612</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="end-footer pt-4 mt-4">
+            <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                <div class="row text-white gap-3 gap-sm-0">
+                    <div class="col-12 col-sm-6 text-center text-sm-start">
+                        كل الحقوق محفوظة@ just billion
+                    </div>
+                    <div class="col-12 col-sm-6 d-flex justify-content-between justify-content-sm-end gap-2 gap-sm-4">
+                        <a href="#">سياسة الخصوصية</a>
+                        <a href="#">الشروط والاحكام</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- End Footer -->
+    <!-- ------------------------------JS------------------------------ -->
+    <!-- LottieFiles -->
+    <script src="assets/plugins/lottie.min.js"></script>
+    <!-- LottieFiles -->
+    <!-- Custom JS -->
+    <script src="assets/js/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- Custom JS -->
+    <!-- Owl Slick  -->
+    <script src="assets/plugins/owl/owl.carousel.min.js"></script>
+    <!-- Owl Slick  -->
+    <!-- Font Awesome -->
+    <script src="assets/plugins/fontawesome-free-6.3.0-web/js/all.min.js"></script>
+    <!-- Font Awesome -->
+    <!-- Bootstrap Js -->
+    <script src="assets/plugins/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap Js -->
+    <!-- Aos Js -->
+    <script src="assets/plugins/aos-master/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Aos Js -->
+</body>
+
+</html>

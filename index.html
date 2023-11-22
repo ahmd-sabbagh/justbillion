@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/images/index/logo-icon.png" type="image/icon type">
+  <!-- Main Css -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <!-- Main Css -->
+  <!-- Bootstrap Css -->
+  <link rel="stylesheet" href="assets/plugins/bootstrap-5.3.0-alpha1-dist/css/bootstrap.rtl.min.css" />
+  <!-- Bootstrap Css -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="assets/plugins/fontawesome-free-6.3.0-web/css/all.min.css" />
+  <!-- Font Awesome -->
+  <!-- Owl Slick -->
+  <link rel="stylesheet" href="assets/plugins/owl/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/plugins/owl/assets/owl.theme.default.min.css" />
+  <!-- Owl Slick -->
+  <!-- Aos Css -->
+  <link rel="stylesheet" href="assets/plugins/aos-master/dist/aos.css">
+  <!-- Aos Css -->
+</head>
+
+<body>
+  <!-- Start Header -->
+  <section class="main-header position-sticky">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/index/logo.svg" alt="#" />
+        </a>
+        <div class="control-site order-lg-3 d-flex align-items-center gap-md-3 gap-2">
+          <!-- Cart -->
+          <!-- web -->
+          <a href="shopping-cart.html"
+            class="text-dark cart-site d-lg-flex align-items-center gap-2 p-2 d-none position-relative">
+            <span class="flex-c"><img src="assets/icons/cart.svg" alt="cart-icon" /></span>
+            <span class="flex-c">السلة</span>
+            <span class="position-absolute flex-c top-0  translate-middle p-1 rounded-circle text-white fs-6 cart-bage">
+              10
+            </span>
+          </a>
+          <!-- mobile -->
+          <a href="shopping-cart.html"
+            class="cart-site d-flex align-items-center justify-content-center p-2 d-lg-none mobile-icon-respons position-relative">
+            <img src="assets/icons/cart-phone.svg" alt="cart-icon" />
+            <span
+              class="position-absolute flex-c top-0 translate-middle p-1 rounded-circle text-white fs-6 mobile-cart-bage">
+              10
+            </span>
+          </a>
+          <!-- Account -->
+          <!-- web -->
+          <div class="my-account dropdown dropdown-edit d-lg-flex align-items-center gap-2 p-2 d-none">
+            <span class="flex-c"><img src="assets/icons/user.svg" alt="user-icon" /></span>
+            <span class="flex-c">حسابي</span>
+            <span class="flex-c rotate-icon dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><i class="fa-solid fa-chevron-down"></i></span>
+            <ul class="dropdown-menu p-3">
+              <div class="d-flex flex-column gap-2">
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="account-settings.html">
+                    <span class="flex-c">
+                      <img src="assets/icons/user-edit.svg" alt="user-setting-icon" />
+                    </span>
+                    <span class="flex-c">اعدادات الحساب</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="orders.html">
+                    <span class="flex-c">
+                      <img src="assets/icons/bag.svg" alt="bag-icon" />
+                    </span>
+                    <span class="flex-center"> طلباتي </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="#">
+                    <span class="flex-c log-out-web">
+                      <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    </span>
+                    <span class="flex-c">تسجيل خروج</span>
+                  </a>
+                </li>
+              </div>
+            </ul>
+          </div>
+          <!-- mobile -->
+          <div class="my-account dropdown dropdown-edit d-flex align-items-center gap-2 d-lg-none">
+            <span class="flex-c dropdown-toggle mobile-icon-respons" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><img src="assets/icons/user-phone.svg" alt="user-icon" /></span>
+            <ul class="dropdown-menu start-0 translate-middle-x p-3">
+              <div class="d-flex flex-column gap-2">
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="account-settings.html">
+                    <span class="flex-c">
+                      <img src="assets/icons/user-edit.svg" alt="user-setting-icon" />
+                    </span>
+                    <span class="flex-c">اعدادات الحساب</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="orders.html">
+                    <span class="flex-c">
+                      <img src="assets/icons/bag.svg" alt="bag-icon" />
+                    </span>
+                    <span class="flex-center"> طلباتي </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="#">
+                    <span class="flex-c log-out-web">
+                      <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    </span>
+                    <span class="flex-c">تسجيل خروج</span>
+                  </a>
+                </li>
+              </div>
+            </ul>
+          </div>
+          <!-- Join Now -->
+          <!-- web -->
+          <a href="login.html" class="join-now fill-btn justify-content-center align-items-center d-none d-lg-flex">انضم
+            الان</a>
+          <!-- mobile -->
+          <a href="login.html" class="mobile-icon-respons justify-content-center align-items-center d-none d-lg-none"><i
+              class="fa-solid fa-arrow-right-to-bracket"></i></a>
+        </div>
+        <!-- Btn Menu -->
+        <button class="navbar-toggler p-1" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="all-deals.html">الصفقات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="winners.html">الفائزين</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="how-sign-up.html">كيف يعمل ؟</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- End Header -->
+  <!-- Start Slick -->
+  <section class="slick-slider">
+    <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+      <div class="owl-carousel d-flex align-items-center slider mt-4 position-relative" dir="ltr">
+        <div class="slider-item" dir="rtl">
+          <img class="image-width" src="assets/images/home/slider.png" alt="slider-image">
+        </div>
+        <div class="slider-item" dir="rtl">
+          <img class="image-width" src="assets/images/home/slider.png" alt="slider-image">
+        </div>
+        <div class="slider-item" dir="rtl">
+          <img class="image-width" src="assets/images/home/slider.png" alt="slider-image">
+        </div>
+        <div class="slider-item" dir="rtl">
+          <img class="image-width" src="assets/images/home/slider.png" alt="slider-image">
+        </div>
+        <div class="slider-item" dir="rtl">
+          <img class="image-width" src="assets/images/home/slider.png" alt="slider-image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Slick -->
+  <!-- Start How It Work -->
+  <section class="how-it-work mt-5">
+    <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+      <div class="cont mb-4 py-4">
+        <div class="image flex-c">
+          <img class="image-width" src="assets/images/home/how-it-work.png" alt="how-it-work-image">
+        </div>
+        <a href="how-sign-up.html" class="gap-3 mx-auto flex-c mt-3">
+          كيف يعمل الموقع ؟
+          <img src="assets/images/home/Icon.svg" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Start How It Work -->
+  <!-- Start Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content p-5">
+        <div class="modal-header pt-0 px-0 pb-3">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">الجوائز الموجودة بالعرض </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex flex-column gap-3 r-5">
+          <div class="prize-offer bg-white d-flex align-items-center flex-column flex-sm-row row-gap-3">
+            <div class="right gap-sm-3 full-width d-flex align-items-center flex-column flex-sm-row row-gap-3">
+              <div class="image">
+                <img src="assets/images/shopping-cart/iphone.png" alt="img" class="image-width">
+              </div>
+              <div class="description">
+                <div class="titlle d-flex align-items-center gap-2">
+                  <h4>موبايل ايفون 14 رام</h4>
+                  <img class="d-none d-sm-block" src="assets/icons/win.svg" alt="icon">
+                </div>
+                <div class="desc text-center text-sm-start">256 جيجا</div>
+              </div>
+            </div>
+            <div class="ctrl">
+              <a href="prize-details.html" class="border-btn flex-c">تفاصيل الجائزة</a>
+            </div>
+          </div>
+          <div class="prize-offer bg-white d-flex align-items-center flex-column flex-sm-row row-gap-3">
+            <div class="right gap-sm-3 full-width d-flex align-items-center flex-column flex-sm-row row-gap-3">
+              <div class="image">
+                <img src="assets/images/product-details/pngegg-1.png" alt="img" class="image-width">
+              </div>
+              <div class="description">
+                <div class="titlle d-flex align-items-center gap-2">
+                  <h4>موبايل ايفون 14 رام</h4>
+                  <img class="d-none d-sm-block" src="assets/icons/win.svg" alt="icon">
+                </div>
+                <div class="desc text-center text-sm-start">256 جيجا</div>
+              </div>
+            </div>
+            <div class="ctrl">
+              <a href="prize-details.html" class="border-btn flex-c">تفاصيل الجائزة</a>
+            </div>
+          </div>
+          <div class="prize-offer bg-white d-flex align-items-center flex-column flex-sm-row row-gap-3">
+            <div class="right gap-sm-3 full-width d-flex align-items-center flex-column flex-sm-row row-gap-3">
+              <div class="image">
+                <img src="assets/images/card/product.png" alt="img" class="image-width">
+              </div>
+              <div class="description">
+                <div class="titlle d-flex align-items-center gap-2">
+                  <h4>موبايل ايفون 14 رام</h4>
+                  <img class="d-none d-sm-block" src="assets/icons/win.svg" alt="icon">
+                </div>
+                <div class="desc text-center text-sm-start">256 جيجا</div>
+              </div>
+            </div>
+            <div class="ctrl">
+              <a href="prize-details.html" class="border-btn flex-c">تفاصيل الجائزة</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Modal -->
+  <!-- Deals Nearing Completion -->
+  <section class="deals-nearing-completion">
+    <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+      <div class="header d-flex align-items-center justify-content-between  mb-3">
+        <div class="d-flex align-items-center gap-3">
+          صفقات قاربت على الانتهاء
+          <img src="assets/images/home/time-fire.svg" alt="time-icon">
+        </div>
+        <a href="all-deals.html" class="border-btn flex-c">عرض الكل</a>
+      </div>
+      <!-- Cards -->
+      <div class="body cards">
+        <div class="body">
+          <!-- one -->
+          <div class="one bg-white d-flex flex-column justify-content-between">
+            <div class="head p-4">
+              <div class="position-relative bar d-flex justify-content-between align-items-start">
+                <div class="counter-time d-flex align-items-center gap-2" data-counter="Apr 27, 2023 23:59:59">
+                  <span class="minutes"></span> : <span class="hours"></span> :
+                  <span class="days"></span>
+                </div>
+                <div class="progress-circle-value">
+                  <div class="circle_box">
+                    <div class="box">
+                      <div class="skill">
+                        <svg>
+                          <circle cx="100" cy="100" r="80"></circle>
+                          <circle class="progress" cx="100" cy="100" r="80" data-value="20" data-stroke="#F44711">
+                          </circle>
+                        </svg>
+                        <span class="data-progress" data-value="20"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="prize-details.html" class="image flex-c">
+                <img src="assets/images/card/moto.png" alt="image" />
+              </a>
+              <div class="like d-flex align-items-center justify-content-between mb-3">
+                <span class="heart flex-c">
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <div class="icon flex-c">
+                  <img src="assets/icons/win.svg" alt="icon" />
+                </div>
+              </div>
+              <div class="share d-flex align-items-center justify-content-between">
+                <span class="flex-c">
+                  <img src="assets/icons/share.svg" alt="icon" />
+                </span>
+                <h4 class="product-win m-0">Hundai Tusan 2023</h4>
+              </div>
+            </div>
+            <div class="content d-flex align-items-center justify-content-between p-4">
+              <a href="product.html" class="product-image">
+                <img src="assets/images/card/product.png" alt="product" />
+              </a>
+              <div class="text d-flex flex-column align-items-end">
+                <span class="">
+                  <img src="assets/icons/buy.svg" alt="image" />
+                </span>
+                <h4 class="product-buy m-0">apple Smart Watch Ultra</h4>
+                <h4 class="price m-0">200 $</h4>
+              </div>
+            </div>
+            <div class="footer d-flex flex-column gap-3 px-4 pb-4">
+              <div class="br-btn d-flex justify-content-between align-items-center gap-3">
+                <a class="flex-c border-btn" href="product.html">تفاصيل المنتج</a>
+                <a class="flex-c border-btn" href="prize-details.html" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">تفاصيل
+                  الجايزة</a>
+              </div>
+              <button class="flex-c border-btn join-the-deal" href="#">انضم للصفقة</button>
+              <div class="btns-footer br-btn justify-content-between align-items-center gap-3">
+                <div class="more-or-minus d-flex align-items-center gap-3">
+                  <button class="border-btn border-btn-minus flex-c">
+                    <i class="fa-solid fa-minus"></i>
+                  </button>
+                  <span class="quantity flex-c">1</span>
+                  <button class="border-btn border-btn-plus flex-c">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+                <div>
+                  <a href="#" class="fill-btn flex-c">أضف الى السلة</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- two -->
+          <div class="one bg-white d-flex flex-column justify-content-between">
+            <div class="head p-4">
+              <div class="position-relative bar d-flex justify-content-between align-items-start">
+                <div class="counter-time d-flex align-items-center gap-2" data-counter="Apr 27, 2023 23:59:59">
+                  <span class="minutes"></span> : <span class="hours"></span> :
+                  <span class="days"></span>
+                </div>
+                <div class="progress-circle-value">
+                  <div class="circle_box">
+                    <div class="box">
+                      <div class="skill">
+                        <svg>
+                          <circle cx="100" cy="100" r="80"></circle>
+                          <circle class="progress" cx="100" cy="100" r="80" data-value="20" data-stroke="#F44711">
+                          </circle>
+                        </svg>
+                        <span class="data-progress" data-value="20"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="prize-details.html" class="image flex-c">
+                <img src="assets/images/card/moto.png" alt="image" />
+              </a>
+              <div class="like d-flex align-items-center justify-content-between mb-3">
+                <span class="heart flex-c">
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <div class="icon flex-c">
+                  <img src="assets/icons/win.svg" alt="icon" />
+                </div>
+              </div>
+              <div class="share d-flex align-items-center justify-content-between">
+                <span class="flex-c">
+                  <img src="assets/icons/share.svg" alt="icon" />
+                </span>
+                <h4 class="product-win m-0">Hundai Tusan 2023</h4>
+              </div>
+            </div>
+            <div class="content d-flex align-items-center justify-content-between p-4">
+              <a href="product.html" class="product-image">
+                <img src="assets/images/card/product.png" alt="product" />
+              </a>
+              <div class="text d-flex flex-column align-items-end">
+                <span class="">
+                  <img src="assets/icons/buy.svg" alt="image" />
+                </span>
+                <h4 class="product-buy m-0">apple Smart Watch Ultra</h4>
+                <h4 class="price m-0">200 $</h4>
+              </div>
+            </div>
+            <div class="footer d-flex flex-column gap-3 px-4 pb-4">
+              <div class="br-btn d-flex justify-content-between align-items-center gap-3">
+                <a class="flex-c border-btn" href="product.html">تفاصيل المنتج</a>
+                <a class="flex-c border-btn" href="prize-details.html" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">تفاصيل
+                  الجايزة</a>
+              </div>
+              <button class="flex-c border-btn join-the-deal" href="#">انضم للصفقة</button>
+              <div class="btns-footer br-btn justify-content-between align-items-center gap-3">
+                <div class="more-or-minus d-flex align-items-center gap-3">
+                  <button class="border-btn border-btn-minus flex-c">
+                    <i class="fa-solid fa-minus"></i>
+                  </button>
+                  <span class="quantity flex-c">1</span>
+                  <button class="border-btn border-btn-plus flex-c">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+                <div>
+                  <a href="#" class="fill-btn flex-c">أضف الى السلة</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- three -->
+          <div class="one bg-white d-flex flex-column justify-content-between">
+            <div class="head p-4">
+              <div class="position-relative bar d-flex justify-content-between align-items-start">
+                <div class="counter-time d-flex align-items-center gap-2" data-counter="Apr 27, 2023 23:59:59">
+                  <span class="minutes"></span> : <span class="hours"></span> :
+                  <span class="days"></span>
+                </div>
+                <div class="progress-circle-value">
+                  <div class="circle_box">
+                    <div class="box">
+                      <div class="skill">
+                        <svg>
+                          <circle cx="100" cy="100" r="80"></circle>
+                          <circle class="progress" cx="100" cy="100" r="80" data-value="20" data-stroke="#F44711">
+                          </circle>
+                        </svg>
+                        <span class="data-progress" data-value="20"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="prize-details.html" class="image flex-c">
+                <img src="assets/images/card/moto.png" alt="image" />
+              </a>
+              <div class="like d-flex align-items-center justify-content-between mb-3">
+                <span class="heart flex-c">
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <div class="icon flex-c">
+                  <img src="assets/icons/win.svg" alt="icon" />
+                </div>
+              </div>
+              <div class="share d-flex align-items-center justify-content-between">
+                <span class="flex-c">
+                  <img src="assets/icons/share.svg" alt="icon" />
+                </span>
+                <h4 class="product-win m-0">Hundai Tusan 2023</h4>
+              </div>
+            </div>
+            <div class="content d-flex align-items-center justify-content-between p-4">
+              <a href="product.html" class="product-image">
+                <img src="assets/images/card/product.png" alt="product" />
+              </a>
+              <div class="text d-flex flex-column align-items-end">
+                <span class="">
+                  <img src="assets/icons/buy.svg" alt="image" />
+                </span>
+                <h4 class="product-buy m-0">apple Smart Watch Ultra</h4>
+                <h4 class="price m-0">200 $</h4>
+              </div>
+            </div>
+            <div class="footer d-flex flex-column gap-3 px-4 pb-4">
+              <div class="br-btn d-flex justify-content-between align-items-center gap-3">
+                <a class="flex-c border-btn" href="product.html">تفاصيل المنتج</a>
+                <a class="flex-c border-btn" href="prize-details.html" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">تفاصيل
+                  الجايزة</a>
+              </div>
+              <button class="flex-c border-btn join-the-deal" href="#">انضم للصفقة</button>
+              <div class="btns-footer br-btn justify-content-between align-items-center gap-3">
+                <div class="more-or-minus d-flex align-items-center gap-3">
+                  <button class="border-btn border-btn-minus flex-c">
+                    <i class="fa-solid fa-minus"></i>
+                  </button>
+                  <span class="quantity flex-c">1</span>
+                  <button class="border-btn border-btn-plus flex-c">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+                <div>
+                  <a href="#" class="fill-btn flex-c">أضف الى السلة</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Deals Nearing Completion -->
+  <!-- Start Ads -->
+  <section class="home-ads py-4">
+    <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+      <div class="cont d-flex flex-column flex-md-row justify-content-center align-items-center gap-4">
+        <div class="image">
+          <img class="image-width" src="assets/images/home/ad-1.png" alt="ad-image">
+        </div>
+        <div class="image">
+          <img class="image-width" src="assets/images/home/ad-2.png" alt="ad-image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Start Ads -->
+  <!-- Explore Deals -->
+  <section class="explore-deals">
+    <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+      <div class="header d-flex align-items-center pb-4 justify-content-between heading-bold ">
+        أستكشف الصفقات
+        <a href="all-deals.html" class="border-btn flex-c">عرض الكل</a>
+      </div>
+      <div class="body cards">
+        <!-- Body Cards -->
+        <div class="body pb-5">
+          <!-- one -->
+          <div class="one bg-white d-flex flex-column justify-content-between">
+            <div class="head p-4">
+              <div class="position-relative bar d-flex justify-content-between align-items-start">
+                <div class="counter-time d-flex align-items-center gap-2" data-counter="Apr 27, 2023 23:59:59">
+                  <span class="minutes"></span> : <span class="hours"></span> :
+                  <span class="days"></span>
+                </div>
+                <div class="progress-circle-value">
+                  <div class="circle_box">
+                    <div class="box">
+                      <div class="skill">
+                        <svg>
+                          <circle cx="100" cy="100" r="80"></circle>
+                          <circle class="progress" cx="100" cy="100" r="80" data-value="20" data-stroke="#F44711">
+                          </circle>
+                        </svg>
+                        <span class="data-progress" data-value="20"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="prize-details.html" class="image flex-c">
+                <img src="assets/images/card/moto.png" alt="image" />
+              </a>
+              <div class="like d-flex align-items-center justify-content-between mb-3">
+                <span class="heart flex-c">
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <div class="icon flex-c">
+                  <img src="assets/icons/win.svg" alt="icon" />
+                </div>
+              </div>
+              <div class="share d-flex align-items-center justify-content-between">
+                <span class="flex-c">
+                  <img src="assets/icons/share.svg" alt="icon" />
+                </span>
+                <h4 class="product-win m-0">Hundai Tusan 2023</h4>
+              </div>
+            </div>
+            <div class="content d-flex align-items-center justify-content-between p-4">
+              <a href="product.html" class="product-image">
+                <img src="assets/images/card/product.png" alt="product" />
+              </a>
+              <div class="text d-flex flex-column align-items-end">
+                <span class="">
+                  <img src="assets/icons/buy.svg" alt="image" />
+                </span>
+                <h4 class="product-buy m-0">apple Smart Watch Ultra</h4>
+                <h4 class="price m-0">200 $</h4>
+              </div>
+            </div>
+            <div class="footer d-flex flex-column gap-3 px-4 pb-4">
+              <div class="br-btn d-flex justify-content-between align-items-center gap-3">
+                <a class="flex-c border-btn" href="product.html">تفاصيل المنتج</a>
+                <a class="flex-c border-btn" href="prize-details.html" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">تفاصيل
+                  الجايزة</a>
+              </div>
+              <button class="flex-c border-btn join-the-deal" href="#">انضم للصفقة</button>
+              <div class="btns-footer br-btn justify-content-between align-items-center gap-3">
+                <div class="more-or-minus d-flex align-items-center gap-3">
+                  <button class="border-btn border-btn-minus flex-c">
+                    <i class="fa-solid fa-minus"></i>
+                  </button>
+                  <span class="quantity flex-c">1</span>
+                  <button class="border-btn border-btn-plus flex-c">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+                <div>
+                  <a href="#" class="fill-btn flex-c">أضف الى السلة</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- two -->
+          <div class="one bg-white d-flex flex-column justify-content-between">
+            <div class="head p-4">
+              <div class="position-relative bar d-flex justify-content-between align-items-start">
+                <div class="counter-time d-flex align-items-center gap-2" data-counter="Apr 27, 2023 23:59:59">
+                  <span class="minutes"></span> : <span class="hours"></span> :
+                  <span class="days"></span>
+                </div>
+                <div class="progress-circle-value">
+                  <div class="circle_box">
+                    <div class="box">
+                      <div class="skill">
+                        <svg>
+                          <circle cx="100" cy="100" r="80"></circle>
+                          <circle class="progress" cx="100" cy="100" r="80" data-value="20" data-stroke="#F44711">
+                          </circle>
+                        </svg>
+                        <span class="data-progress" data-value="20"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="prize-details.html" class="image flex-c">
+                <img src="assets/images/card/moto.png" alt="image" />
+              </a>
+              <div class="like d-flex align-items-center justify-content-between mb-3">
+                <span class="heart flex-c">
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <div class="icon flex-c">
+                  <img src="assets/icons/win.svg" alt="icon" />
+                </div>
+              </div>
+              <div class="share d-flex align-items-center justify-content-between">
+                <span class="flex-c">
+                  <img src="assets/icons/share.svg" alt="icon" />
+                </span>
+                <h4 class="product-win m-0">Hundai Tusan 2023</h4>
+              </div>
+            </div>
+            <div class="content d-flex align-items-center justify-content-between p-4">
+              <a href="product.html" class="product-image">
+                <img src="assets/images/card/product.png" alt="product" />
+              </a>
+              <div class="text d-flex flex-column align-items-end">
+                <span class="">
+                  <img src="assets/icons/buy.svg" alt="image" />
+                </span>
+                <h4 class="product-buy m-0">apple Smart Watch Ultra</h4>
+                <h4 class="price m-0">200 $</h4>
+              </div>
+            </div>
+            <div class="footer d-flex flex-column gap-3 px-4 pb-4">
+              <div class="br-btn d-flex justify-content-between align-items-center gap-3">
+                <a class="flex-c border-btn" href="product.html">تفاصيل المنتج</a>
+                <a class="flex-c border-btn" href="prize-details.html" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">تفاصيل
+                  الجايزة</a>
+              </div>
+              <button class="flex-c border-btn join-the-deal" href="#">انضم للصفقة</button>
+              <div class="btns-footer br-btn justify-content-between align-items-center gap-3">
+                <div class="more-or-minus d-flex align-items-center gap-3">
+                  <button class="border-btn border-btn-minus flex-c">
+                    <i class="fa-solid fa-minus"></i>
+                  </button>
+                  <span class="quantity flex-c">1</span>
+                  <button class="border-btn border-btn-plus flex-c">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+                <div>
+                  <a href="#" class="fill-btn flex-c">أضف الى السلة</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- three -->
+          <div class="one bg-white d-flex flex-column justify-content-between">
+            <div class="head p-4">
+              <div class="position-relative bar d-flex justify-content-between align-items-start">
+                <div class="counter-time d-flex align-items-center gap-2" data-counter="Apr 27, 2023 23:59:59">
+                  <span class="minutes"></span> : <span class="hours"></span> :
+                  <span class="days"></span>
+                </div>
+                <div class="progress-circle-value">
+                  <div class="circle_box">
+                    <div class="box">
+                      <div class="skill">
+                        <svg>
+                          <circle cx="100" cy="100" r="80"></circle>
+                          <circle class="progress" cx="100" cy="100" r="80" data-value="20" data-stroke="#F44711">
+                          </circle>
+                        </svg>
+                        <span class="data-progress" data-value="20"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="prize-details.html" class="image flex-c">
+                <img src="assets/images/card/moto.png" alt="image" />
+              </a>
+              <div class="like d-flex align-items-center justify-content-between mb-3">
+                <span class="heart flex-c">
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <div class="icon flex-c">
+                  <img src="assets/icons/win.svg" alt="icon" />
+                </div>
+              </div>
+              <div class="share d-flex align-items-center justify-content-between">
+                <span class="flex-c">
+                  <img src="assets/icons/share.svg" alt="icon" />
+                </span>
+                <h4 class="product-win m-0">Hundai Tusan 2023</h4>
+              </div>
+            </div>
+            <div class="content d-flex align-items-center justify-content-between p-4">
+              <a href="product.html" class="product-image">
+                <img src="assets/images/card/product.png" alt="product" />
+              </a>
+              <div class="text d-flex flex-column align-items-end">
+                <span class="">
+                  <img src="assets/icons/buy.svg" alt="image" />
+                </span>
+                <h4 class="product-buy m-0">apple Smart Watch Ultra</h4>
+                <h4 class="price m-0">200 $</h4>
+              </div>
+            </div>
+            <div class="footer d-flex flex-column gap-3 px-4 pb-4">
+              <div class="br-btn d-flex justify-content-between align-items-center gap-3">
+                <a class="flex-c border-btn" href="product.html">تفاصيل المنتج</a>
+                <a class="flex-c border-btn" href="prize-details.html" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">تفاصيل
+                  الجايزة</a>
+              </div>
+              <button class="flex-c border-btn join-the-deal" href="#">انضم للصفقة</button>
+              <div class="btns-footer br-btn justify-content-between align-items-center gap-3">
+                <div class="more-or-minus d-flex align-items-center gap-3">
+                  <button class="border-btn border-btn-minus flex-c">
+                    <i class="fa-solid fa-minus"></i>
+                  </button>
+                  <span class="quantity flex-c">1</span>
+                  <button class="border-btn border-btn-plus flex-c">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+                <div>
+                  <a href="#" class="fill-btn flex-c">أضف الى السلة</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Four -->
+          <div class="one bg-white d-flex flex-column justify-content-between">
+            <div class="head p-4">
+              <div class="position-relative bar d-flex justify-content-between align-items-start">
+                <div class="counter-time d-flex align-items-center gap-2" data-counter="Apr 27, 2023 23:59:59">
+                  <span class="minutes"></span> : <span class="hours"></span> :
+                  <span class="days"></span>
+                </div>
+                <div class="progress-circle-value">
+                  <div class="circle_box">
+                    <div class="box">
+                      <div class="skill">
+                        <svg>
+                          <circle cx="100" cy="100" r="80"></circle>
+                          <circle class="progress" cx="100" cy="100" r="80" data-value="20" data-stroke="#F44711">
+                          </circle>
+                        </svg>
+                        <span class="data-progress" data-value="20"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="prize-details.html" class="image flex-c">
+                <img src="assets/images/card/moto.png" alt="image" />
+              </a>
+              <div class="like d-flex align-items-center justify-content-between mb-3">
+                <span class="heart flex-c">
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <div class="icon flex-c">
+                  <img src="assets/icons/win.svg" alt="icon" />
+                </div>
+              </div>
+              <div class="share d-flex align-items-center justify-content-between">
+                <span class="flex-c">
+                  <img src="assets/icons/share.svg" alt="icon" />
+                </span>
+                <h4 class="product-win m-0">Hundai Tusan 2023</h4>
+              </div>
+            </div>
+            <div class="content d-flex align-items-center justify-content-between p-4">
+              <a href="product.html" class="product-image">
+                <img src="assets/images/card/product.png" alt="product" />
+              </a>
+              <div class="text d-flex flex-column align-items-end">
+                <span class="">
+                  <img src="assets/icons/buy.svg" alt="image" />
+                </span>
+                <h4 class="product-buy m-0">apple Smart Watch Ultra</h4>
+                <h4 class="price m-0">200 $</h4>
+              </div>
+            </div>
+            <div class="footer d-flex flex-column gap-3 px-4 pb-4">
+              <div class="br-btn d-flex justify-content-between align-items-center gap-3">
+                <a class="flex-c border-btn" href="product.html">تفاصيل المنتج</a>
+                <a class="flex-c border-btn" href="prize-details.html" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">تفاصيل
+                  الجايزة</a>
+              </div>
+              <button class="flex-c border-btn join-the-deal" href="#">انضم للصفقة</button>
+              <div class="btns-footer br-btn justify-content-between align-items-center gap-3">
+                <div class="more-or-minus d-flex align-items-center gap-3">
+                  <button class="border-btn border-btn-minus flex-c">
+                    <i class="fa-solid fa-minus"></i>
+                  </button>
+                  <span class="quantity flex-c">1</span>
+                  <button class="border-btn border-btn-plus flex-c">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+                <div>
+                  <a href="#" class="fill-btn flex-c">أضف الى السلة</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Five -->
+          <div class="one bg-white d-flex flex-column justify-content-between">
+            <div class="head p-4">
+              <div class="position-relative bar d-flex justify-content-between align-items-start">
+                <div class="counter-time d-flex align-items-center gap-2" data-counter="Apr 27, 2023 23:59:59">
+                  <span class="minutes"></span> : <span class="hours"></span> :
+                  <span class="days"></span>
+                </div>
+                <div class="progress-circle-value">
+                  <div class="circle_box">
+                    <div class="box">
+                      <div class="skill">
+                        <svg>
+                          <circle cx="100" cy="100" r="80"></circle>
+                          <circle class="progress" cx="100" cy="100" r="80" data-value="20" data-stroke="#F44711">
+                          </circle>
+                        </svg>
+                        <span class="data-progress" data-value="20"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="prize-details.html" class="image flex-c">
+                <img src="assets/images/card/moto.png" alt="image" />
+              </a>
+              <div class="like d-flex align-items-center justify-content-between mb-3">
+                <span class="heart flex-c">
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <div class="icon flex-c">
+                  <img src="assets/icons/win.svg" alt="icon" />
+                </div>
+              </div>
+              <div class="share d-flex align-items-center justify-content-between">
+                <span class="flex-c">
+                  <img src="assets/icons/share.svg" alt="icon" />
+                </span>
+                <h4 class="product-win m-0">Hundai Tusan 2023</h4>
+              </div>
+            </div>
+            <div class="content d-flex align-items-center justify-content-between p-4">
+              <a href="product.html" class="product-image">
+                <img src="assets/images/card/product.png" alt="product" />
+              </a>
+              <div class="text d-flex flex-column align-items-end">
+                <span class="">
+                  <img src="assets/icons/buy.svg" alt="image" />
+                </span>
+                <h4 class="product-buy m-0">apple Smart Watch Ultra</h4>
+                <h4 class="price m-0">200 $</h4>
+              </div>
+            </div>
+            <div class="footer d-flex flex-column gap-3 px-4 pb-4">
+              <div class="br-btn d-flex justify-content-between align-items-center gap-3">
+                <a class="flex-c border-btn" href="product.html">تفاصيل المنتج</a>
+                <a class="flex-c border-btn" href="prize-details.html" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">تفاصيل
+                  الجايزة</a>
+              </div>
+              <button class="flex-c border-btn join-the-deal" href="#">انضم للصفقة</button>
+              <div class="btns-footer br-btn justify-content-between align-items-center gap-3">
+                <div class="more-or-minus d-flex align-items-center gap-3">
+                  <button class="border-btn border-btn-minus flex-c">
+                    <i class="fa-solid fa-minus"></i>
+                  </button>
+                  <span class="quantity flex-c">1</span>
+                  <button class="border-btn border-btn-plus flex-c">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+                <div>
+                  <a href="#" class="fill-btn flex-c">أضف الى السلة</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Six -->
+          <div class="one bg-white d-flex flex-column justify-content-between">
+            <div class="head p-4">
+              <div class="position-relative bar d-flex justify-content-between align-items-start">
+                <div class="counter-time d-flex align-items-center gap-2" data-counter="Apr 27, 2023 23:59:59">
+                  <span class="minutes"></span> : <span class="hours"></span> :
+                  <span class="days"></span>
+                </div>
+                <div class="progress-circle-value">
+                  <div class="circle_box">
+                    <div class="box">
+                      <div class="skill">
+                        <svg>
+                          <circle cx="100" cy="100" r="80"></circle>
+                          <circle class="progress" cx="100" cy="100" r="80" data-value="20" data-stroke="#F44711">
+                          </circle>
+                        </svg>
+                        <span class="data-progress" data-value="20"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="prize-details.html" class="image flex-c">
+                <img src="assets/images/card/moto.png" alt="image" />
+              </a>
+              <div class="like d-flex align-items-center justify-content-between mb-3">
+                <span class="heart flex-c">
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                <div class="icon flex-c">
+                  <img src="assets/icons/win.svg" alt="icon" />
+                </div>
+              </div>
+              <div class="share d-flex align-items-center justify-content-between">
+                <span class="flex-c">
+                  <img src="assets/icons/share.svg" alt="icon" />
+                </span>
+                <h4 class="product-win m-0">Hundai Tusan 2023</h4>
+              </div>
+            </div>
+            <div class="content d-flex align-items-center justify-content-between p-4">
+              <a href="product.html" class="product-image">
+                <img src="assets/images/card/product.png" alt="product" />
+              </a>
+              <div class="text d-flex flex-column align-items-end">
+                <span class="">
+                  <img src="assets/icons/buy.svg" alt="image" />
+                </span>
+                <h4 class="product-buy m-0">apple Smart Watch Ultra</h4>
+                <h4 class="price m-0">200 $</h4>
+              </div>
+            </div>
+            <div class="footer d-flex flex-column gap-3 px-4 pb-4">
+              <div class="br-btn d-flex justify-content-between align-items-center gap-3">
+                <a class="flex-c border-btn" href="product.html">تفاصيل المنتج</a>
+                <a class="flex-c border-btn" href="prize-details.html" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">تفاصيل
+                  الجايزة</a>
+              </div>
+              <button class="flex-c border-btn join-the-deal" href="#">انضم للصفقة</button>
+              <div class="btns-footer br-btn justify-content-between align-items-center gap-3">
+                <div class="more-or-minus d-flex align-items-center gap-3">
+                  <button class="border-btn border-btn-minus flex-c">
+                    <i class="fa-solid fa-minus"></i>
+                  </button>
+                  <span class="quantity flex-c">1</span>
+                  <button class="border-btn border-btn-plus flex-c">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+                <div>
+                  <a href="#" class="fill-btn flex-c">أضف الى السلة</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Explore Deals -->
+  <!-- Completed Deals -->
+  <section class="cards py-5 section-winners completed-deals">
+    <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+      <div class="header d-flex align-items-center pb-4 justify-content-between heading-bold text-white">
+        الصفقات المنتهية
+        <a href="#" class="border-btn flex-c">عرض الكل</a>
+      </div>
+      <div class="body">
+        <div class="one bg-white d-flex flex-column justify-content-between overflow-hidden position-relative">
+          <div class="tekt-winner position-absolute z-2 ">
+            <img src="assets/icons/winner.svg" alt="icon">
+          </div>
+          <div class="flat-info position-absolute d-flex flex-column justify-content-center gap-3 align-items-center">
+            <div class="blur position-relative overflow-hidden">
+              <div class="border-y position-absolute height-100"></div>
+              <div class="header ">
+                <div class="row text-white">
+                  <h2 class="text-center col-6 p-0 m-0 py-2">Winners</h2>
+                  <h2 class="text-center col-6 p-0 m-0 py-2">Prizes</h2>
+                </div>
+              </div>
+              <div class="body d-flex gap-0 text-center text-white mt-3">
+                <div class="left winners p-0 d-flex flex-column gap-3">
+                  <p>250</p>
+                  <p>250</p>
+                  <p>250</p>
+                  <p>250</p>
+                  <p>250</p>
+                </div>
+                <div class="right prizes p-0 d-flex flex-column gap-3">
+                  <p>100000$</p>
+                  <p>100000$</p>
+                  <p>100000$</p>
+                  <p>100000$</p>
+                  <p>100000$</p>
+                </div>
+              </div>
+            </div>
+            <div class="view-all d-flex gap-3 text-white border-bottom border-2 pb-2">
+              <span class="flex-c"><i class="fa-solid fa-chevron-left"></i></span>
+              <a class="text-white" href="winners.html">مشاهدة جميع الفائزين</a>
+            </div>
+          </div>
+          <div class="head p-4">
+            <div class="image flex-c">
+              <img src="assets/images/card/moto.png" alt="image" />
+            </div>
+            <div class="like d-flex align-items-center justify-content-between mb-3">
+              <span class="heart flex-c">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <div class="icon flex-c">
+                <img src="assets/icons/win.svg" alt="icon" />
+              </div>
+            </div>
+            <div class="share d-flex align-items-center justify-content-between">
+              <span class="flex-c">
+                <img src="assets/icons/share.svg" alt="icon" />
+              </span>
+              <h4 class="product-win m-0">Hundai Tusan 2023</h4>
+            </div>
+          </div>
+          <div class="content d-flex align-items-center justify-content-between p-4">
+            <div class="product-image">
+              <img src="assets/images/card/product.png" alt="product" />
+            </div>
+            <div class="text d-flex flex-column align-items-end">
+              <span class="">
+                <img src="assets/icons/buy.svg" alt="image" />
+              </span>
+              <h4 class="product-buy m-0">apple Smart Watch Ultra</h4>
+              <h4 class="price m-0">200 $</h4>
+            </div>
+          </div>
+          <div class="footer d-flex flex-column gap-3 px-4 pb-4">
+            <div class="br-btn d-flex justify-content-between align-items-center gap-3">
+              <a class="flex-c border-btn" href="#">تفاصيل المنتج</a>
+              <a class="flex-c border-btn" href="#">تفاصيل الجايزة</a>
+            </div>
+            <a href="#" class="fill-btn flex-c">انضم للصفقة</a>
+          </div>
+        </div>
+        <div class="one bg-white d-flex flex-column justify-content-between overflow-hidden position-relative">
+          <div class="tekt-winner position-absolute z-2 ">
+            <img src="assets/icons/winner.svg" alt="icon">
+          </div>
+          <div class="flat-info position-absolute d-flex flex-column justify-content-center gap-3 align-items-center">
+            <div class="blur position-relative overflow-hidden">
+              <div class="border-y position-absolute height-100"></div>
+              <div class="header ">
+                <div class="row text-white">
+                  <h2 class="text-center col-6 p-0 m-0 py-2">Winners</h2>
+                  <h2 class="text-center col-6 p-0 m-0 py-2">Prizes</h2>
+                </div>
+              </div>
+              <div class="body d-flex gap-0 text-center text-white mt-3">
+                <div class="left winners p-0 d-flex flex-column gap-3">
+                  <p>250</p>
+                  <p>250</p>
+                  <p>250</p>
+                  <p>250</p>
+                  <p>250</p>
+                </div>
+                <div class="right prizes p-0 d-flex flex-column gap-3">
+                  <p>100000$</p>
+                  <p>100000$</p>
+                  <p>100000$</p>
+                  <p>100000$</p>
+                  <p>100000$</p>
+                </div>
+              </div>
+            </div>
+            <div class="view-all d-flex gap-3 text-white border-bottom border-2 pb-2">
+              <span class="flex-c"><i class="fa-solid fa-chevron-left"></i></span>
+              <a class="text-white" href="winners.html">مشاهدة جميع الفائزين</a>
+            </div>
+          </div>
+          <div class="head p-4">
+            <div class="image flex-c">
+              <img src="assets/images/card/moto.png" alt="image" />
+            </div>
+            <div class="like d-flex align-items-center justify-content-between mb-3">
+              <span class="heart flex-c">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <div class="icon flex-c">
+                <img src="assets/icons/win.svg" alt="icon" />
+              </div>
+            </div>
+            <div class="share d-flex align-items-center justify-content-between">
+              <span class="flex-c">
+                <img src="assets/icons/share.svg" alt="icon" />
+              </span>
+              <h4 class="product-win m-0">Hundai Tusan 2023</h4>
+            </div>
+          </div>
+          <div class="content d-flex align-items-center justify-content-between p-4">
+            <div class="product-image">
+              <img src="assets/images/card/product.png" alt="product" />
+            </div>
+            <div class="text d-flex flex-column align-items-end">
+              <span class="">
+                <img src="assets/icons/buy.svg" alt="image" />
+              </span>
+              <h4 class="product-buy m-0">apple Smart Watch Ultra</h4>
+              <h4 class="price m-0">200 $</h4>
+            </div>
+          </div>
+          <div class="footer d-flex flex-column gap-3 px-4 pb-4">
+            <div class="br-btn d-flex justify-content-between align-items-center gap-3">
+              <a class="flex-c border-btn" href="#">تفاصيل المنتج</a>
+              <a class="flex-c border-btn" href="#">تفاصيل الجايزة</a>
+            </div>
+            <a href="#" class="fill-btn flex-c">انضم للصفقة</a>
+          </div>
+        </div>
+        <div class="one bg-white d-flex flex-column justify-content-between overflow-hidden position-relative">
+          <div class="tekt-winner position-absolute z-2 ">
+            <img src="assets/icons/winner.svg" alt="icon">
+          </div>
+          <div class="flat-info position-absolute d-flex flex-column justify-content-center gap-3 align-items-center">
+            <div class="blur position-relative overflow-hidden">
+              <div class="border-y position-absolute height-100"></div>
+              <div class="header ">
+                <div class="row text-white">
+                  <h2 class="text-center col-6 p-0 m-0 py-2">Winners</h2>
+                  <h2 class="text-center col-6 p-0 m-0 py-2">Prizes</h2>
+                </div>
+              </div>
+              <div class="body d-flex gap-0 text-center text-white mt-3">
+                <div class="left winners p-0 d-flex flex-column gap-3">
+                  <p>250</p>
+                  <p>250</p>
+                  <p>250</p>
+                  <p>250</p>
+                  <p>250</p>
+                </div>
+                <div class="right prizes p-0 d-flex flex-column gap-3">
+                  <p>100000$</p>
+                  <p>100000$</p>
+                  <p>100000$</p>
+                  <p>100000$</p>
+                  <p>100000$</p>
+                </div>
+              </div>
+            </div>
+            <div class="view-all d-flex gap-3 text-white border-bottom border-2 pb-2">
+              <span class="flex-c"><i class="fa-solid fa-chevron-left"></i></span>
+              <a class="text-white" href="winners.html">مشاهدة جميع الفائزين</a>
+            </div>
+          </div>
+          <div class="head p-4">
+            <div class="image flex-c">
+              <img src="assets/images/card/moto.png" alt="image" />
+            </div>
+            <div class="like d-flex align-items-center justify-content-between mb-3">
+              <span class="heart flex-c">
+                <i class="fa-regular fa-heart"></i>
+              </span>
+              <div class="icon flex-c">
+                <img src="assets/icons/win.svg" alt="icon" />
+              </div>
+            </div>
+            <div class="share d-flex align-items-center justify-content-between">
+              <span class="flex-c">
+                <img src="assets/icons/share.svg" alt="icon" />
+              </span>
+              <h4 class="product-win m-0">Hundai Tusan 2023</h4>
+            </div>
+          </div>
+          <div class="content d-flex align-items-center justify-content-between p-4">
+            <div class="product-image">
+              <img src="assets/images/card/product.png" alt="product" />
+            </div>
+            <div class="text d-flex flex-column align-items-end">
+              <span class="">
+                <img src="assets/icons/buy.svg" alt="image" />
+              </span>
+              <h4 class="product-buy m-0">apple Smart Watch Ultra</h4>
+              <h4 class="price m-0">200 $</h4>
+            </div>
+          </div>
+          <div class="footer d-flex flex-column gap-3 px-4 pb-4">
+            <div class="br-btn d-flex justify-content-between align-items-center gap-3">
+              <a class="flex-c border-btn" href="#">تفاصيل المنتج</a>
+              <a class="flex-c border-btn" href="#">تفاصيل الجايزة</a>
+            </div>
+            <a href="#" class="fill-btn flex-c">انضم للصفقة</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Completed Deals -->
+  <!-- Join Us -->
+  <section class="join-us pt-5 mt-5">
+    <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+      <div class="cont py-5 text-white position-relative px-3">
+        <img class="position-absolute start-0 top-0" src="assets/images/home/square-1.svg" alt="shape">
+        <img class="position-absolute start-0 bottom-0" src="assets/images/home/square-2.svg" alt="shape">
+        <img class="position-absolute end-0 top-0 translate-middle-y" src="assets/images/home/Polygon.svg" alt="shape">
+        <div class="header text-center mb-4">
+          <h2 class="heading-bold p-0">انضم الينا الآن ليصلك كل جديد</h2>
+          <p>ادخل بريدك الالكترونى الآن حتى نقوم بارسال كل جديد عليه فى كل الاوقات</p>
+        </div>
+        <div class="body">
+          <form>
+            <div class="input mx-auto bg-white r-10 p-1 d-flex align-items-center">
+              <input type="email" placeholder="ادخل بريدك الالكترونى">
+              <button type="submit" class="fill-btn">انضم الان</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Join Us -->
+  <!-- Start Footer -->
+  <section class="main-footer mt-5 bg-dark p-tb-50">
+    <div class="container text-white" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+      data-aos-duration="1000">
+      <div class="row justify-content-between align-items-center row-gap-5">
+        <div class="col-md-4 d-flex flex-column gap-3 align-items-center align-items-md-start">
+          <div class="logo">
+            <img src="assets/images/footer/footer-logo.svg" alt="" />
+          </div>
+          <p>
+            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+            هذا
+          </p>
+          <div class="icons d-flex gap-3 align-tems-center justify-content-center justify-content-md-start">
+            <a class="linked flex-c" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="instagram flex-c" href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="twitter flex-c"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="facebook flex-c"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="col-md-7 d-flex justify-content-between gap-2">
+          <div class="site d-flex flex-column gap-3">
+            <h2>الموقع</h2>
+            <ul class="p-0 d-flex flex-column gap-2">
+              <li><a href="#">سياسة الخصوصية الاسترجاع</a></li>
+              <li><a href="some-question.html">الاسئلة الشائعة</a></li>
+              <!-- Language -->
+              <div class="language dropdown dropdown-edit d-flex align-items-center gap-2 p-1 p-md-2">
+                <span class="flex-c r-50 overflow-hidden flag">
+                  <img src="assets/icons/sudiArabia.svg" alt="" />
+                </span>
+                <span class="flex-c">العربية</span>
+                <span class="flex-c rotate-icon dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false"><i class="fa-solid fa-chevron-down"></i></span>
+                <ul class="dropdown-menu p-3">
+                  <div class="en d-flex align-items-center gap-2">
+                    <span class="flex-c r-50 overflow-hidden flag">
+                      <img src="assets/icons/united-kingdom.png" alt="" />
+                    </span>
+                    <span class="flex-c">English</span>
+                  </div>
+                </ul>
+              </div>
+              <!-- Language -->
+              <!-- Currency -->
+              <div class="Currency dropdown dropdown-edit d-flex align-items-center gap-2  p-1 p-md-2">
+                <span class="flex-c">درهم</span>
+                <span class="flex-c rotate-icon dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false"><i class="fa-solid fa-chevron-down"></i></span>
+                <ul class="dropdown-menu p-3">
+                  <div class="en d-flex align-items-center gap-2">
+                    <span class="pointer d-block">دولار</span>
+                  </div>
+                </ul>
+              </div>
+              <!-- Currency -->
+            </ul>
+          </div>
+          <div class="important-links d-flex flex-column gap-3">
+            <h2>روابط سريعة</h2>
+            <ul class="p-0 d-flex flex-column gap-2">
+              <li><a href="all-deals.html">الصفقات</a></li>
+              <li><a href="winners.html">الفائزين</a></li>
+              <li><a href="about-us.html">نبذة عنا</a></li>
+              <li><a href="contact-us.html">تواصل معنا</a></li>
+            </ul>
+          </div>
+          <div class="contact-us d-flex flex-column gap-3">
+            <h2>تواصل معنا</h2>
+            <div class="location d-flex gap-2 gap-md-3 align-items-center">
+              <span class="flex-c">
+                <img src="assets/images/footer/icons/location.svg" alt="" />
+              </span>
+              <a href="#" class="flex-c">Dubai, Internet City</a>
+            </div>
+            <div class="sms d-flex gap-2 gap-md-3 align-tems-center">
+              <span class="flex-c">
+                <img src="assets/images/footer/icons/sms.svg" alt="" />
+              </span>
+              <a href="#" class="flex-c">info@justbillion.com</a>
+            </div>
+            <div class="call d-flex gap-2 gap-md-3 align-tems-center">
+              <span class="flex-c">
+                <img src="assets/images/footer/icons/Vector.svg" alt="" />
+              </span>
+              <a href="#" class="flex-c">+971 58 898 6612</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="end-footer pt-4 mt-4">
+      <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+        <div class="row text-white gap-3 gap-sm-0">
+          <div class="col-12 col-sm-6 text-center text-sm-start">
+            كل الحقوق محفوظة@ just billion
+          </div>
+          <div class="col-12 col-sm-6 d-flex justify-content-between justify-content-sm-end gap-2 gap-sm-4">
+            <a href="#">سياسة الخصوصية</a>
+            <a href="#">الشروط والاحكام</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- End Footer -->
+  <!-- ------------------------------JS------------------------------ -->
+  <!-- LottieFiles -->
+  <script src="assets/plugins/lottie.min.js"></script>
+  <!-- LottieFiles -->
+  <!-- Custom JS -->
+  <script src="assets/js/jquery-3.6.3.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <!-- Custom JS -->
+  <!-- Owl Slick  -->
+  <script src="assets/plugins/owl/owl.carousel.min.js"></script>
+  <!-- Owl Slick  -->
+  <!-- Font Awesome -->
+  <script src="assets/plugins/fontawesome-free-6.3.0-web/js/all.min.js"></script>
+  <!-- Font Awesome -->
+  <!-- Bootstrap Js -->
+  <script src="assets/plugins/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap Js -->
+  <!-- Aos Js -->
+  <script src="assets/plugins/aos-master/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Aos Js -->
+  <!-- Owl Function -->
+  <script type="text/javascript">
+
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel();
+    });
+
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      margin: 20,
+      nav: false,
+      smartSpeed: 1000,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 1,
+        },
+        1200: {
+          items: 1,
+        },
+      },
+    });
+  </script>
+  <!-- Owl Function -->
+
+</body>
+
+</html>

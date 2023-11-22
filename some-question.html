@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Main Css -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <!-- Main Css -->
+  <!-- Bootstrap Css -->
+  <link rel="stylesheet" href="assets/plugins/bootstrap-5.3.0-alpha1-dist/css/bootstrap.rtl.min.css" />
+  <!-- Bootstrap Css -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="assets/plugins/fontawesome-free-6.3.0-web/css/all.min.css" />
+  <!-- Font Awesome -->
+  <!-- Owl Slick -->
+  <link rel="stylesheet" href="assets/plugins/owl/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/plugins/owl/assets/owl.theme.default.min.css" />
+  <!-- Owl Slick -->
+  <!-- Aos Css -->
+  <link rel="stylesheet" href="assets/plugins/aos-master/dist/aos.css">
+  <!-- Aos Css -->
+</head>
+
+<body>
+  <!-- Start Header -->
+  <section class="main-header position-sticky">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/index/logo.svg" alt="#" />
+        </a>
+        <div class="control-site order-lg-3 d-flex align-items-center gap-md-3 gap-2">
+          <!-- Language -->
+          <!-- web -->
+          <div class="language dropdown dropdown-edit d-lg-flex align-items-center gap-2 d-none p-2">
+            <span class="flex-c r-50 overflow-hidden flag">
+              <img src="assets/icons/sudiArabia.svg" alt="" />
+            </span>
+            <span class="flex-c">العربية</span>
+            <span class="flex-c rotate-icon dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><i class="fa-solid fa-chevron-down"></i></span>
+            <ul class="dropdown-menu p-3">
+              <div class="en d-flex align-items-center gap-2">
+                <span class="flex-c r-50 overflow-hidden flag">
+                  <img src="assets/icons/united-kingdom.png" alt="" />
+                </span>
+                <span class="flex-c">English</span>
+              </div>
+            </ul>
+          </div>
+          <!-- mobile -->
+          <!-- ar -->
+          <button
+            class="mobile-icon-respons mobile-icon-respons-button d-flex align-items-center justify-content-center d-lg-none"><img
+              src="assets/icons/sudiArabia.svg" alt="" /></button>
+          <!-- en -->
+          <button
+            class="mobile-icon-respons mobile-icon-respons-button d-flex align-items-center justify-content-center d-lg-none d-none"><img
+              src="assets/icons/united-kingdom.png" alt="" /></button>
+          <!-- Cart -->
+          <!-- web -->
+          <a href="cart.html" class="text-dark cart-site d-lg-flex align-items-center gap-2 p-2 d-none">
+            <span class="flex-c"><img src="assets/icons/cart.svg" alt="cart-icon" /></span>
+            <span class="flex-c">السلة</span>
+          </a>
+          <!-- mobile -->
+          <a href="cart.html"
+            class="cart-site d-flex align-items-center justify-content-center p-2 d-lg-none mobile-icon-respons">
+            <img src="assets/icons/cart-phone.svg" alt="cart-icon" />
+          </a>
+          <!-- Account -->
+          <!-- web -->
+          <div class="my-account dropdown dropdown-edit d-lg-flex align-items-center gap-2 p-2 d-none">
+            <span class="flex-c"><img src="assets/icons/user.svg" alt="user-icon" /></span>
+            <span class="flex-c">حسابي</span>
+            <span class="flex-c rotate-icon dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><i class="fa-solid fa-chevron-down"></i></span>
+            <ul class="dropdown-menu p-3">
+              <div class="d-flex flex-column gap-2">
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="account-settings.html">
+                    <span class="flex-c">
+                      <img src="assets/icons/user-edit.svg" alt="user-setting-icon" />
+                    </span>
+                    <span class="flex-c">اعدادات الحساب</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="orders.html">
+                    <span class="flex-c">
+                      <img src="assets/icons/bag.svg" alt="bag-icon" />
+                    </span>
+                    <span class="flex-center"> طلباتي </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="#">
+                    <span class="flex-c log-out-web">
+                      <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    </span>
+                    <span class="flex-c">تسجيل خروج</span>
+                  </a>
+                </li>
+              </div>
+            </ul>
+          </div>
+          <!-- mobile -->
+          <div class="my-account dropdown dropdown-edit d-flex align-items-center gap-2 d-lg-none">
+            <span class="flex-c dropdown-toggle mobile-icon-respons" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><img src="assets/icons/user-phone.svg" alt="user-icon" /></span>
+            <ul class="dropdown-menu start-0 translate-middle-x p-3">
+              <div class="d-flex flex-column gap-2">
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="account-settings.html">
+                    <span class="flex-c">
+                      <img src="assets/icons/user-edit.svg" alt="user-setting-icon" />
+                    </span>
+                    <span class="flex-c">اعدادات الحساب</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="#">
+                    <span class="flex-c">
+                      <img src="assets/icons/bag.svg" alt="bag-icon" />
+                    </span>
+                    <span class="flex-center"> طلباتي </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex align-items-center gap-2 px-1" href="#">
+                    <span class="flex-c">
+                      <img src="assets/icons/3d-rotate.svg" alt="rotate-icon" />
+                    </span>
+                    <span class="flex-c">المرتجعات</span>
+                  </a>
+                </li>
+              </div>
+            </ul>
+          </div>
+          <!-- Join Now -->
+          <!-- web -->
+          <a href="login.html" class="join-now fill-btn justify-content-center align-items-center d-none d-lg-flex">انضم
+            الان</a>
+          <!-- mobile -->
+          <a href="login.html" class="mobile-icon-respons justify-content-center align-items-center d-none d-lg-none"><i
+              class="fa-solid fa-arrow-right-to-bracket"></i></a>
+        </div>
+        <!-- Btn Menu -->
+        <button class="navbar-toggler p-1" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">الصفقات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="winners.html">الفائزين</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="how-sign-up.html">كيف يعمل ؟</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- End Header -->
+  <!-- Start Landing -->
+  <section class="some-question-landing mb-5 py-5">
+    <div class="container">
+      <div class="cont mx-auto text-center d-flex flex-column gap-2 align-items-center" data-aos="fade-down"
+        data-aos-duration="1500">
+        <h3 class="fs-1 m-0">الاسئلة الشائعة</h3>
+        <p class="text-big">يمكنك البحث عن اى سؤال تريدة او من خلال الاسالة الموجودة بالاسفل</p>
+        <div class="input-search p-3 d-flex bg-white r-10 full-width">
+          <span class="flex-c ">
+            <img class="image-width" src="assets/icons/Icon-search.svg" alt="icon">
+          </span>
+          <input class="full-width p-1 ps-3" type="search" placeholder="عن اى شئ تبحث ....">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Landing -->
+  <!-- Start Some Question -->
+  <section class="some-question-items pb-5">
+    <div class="accordion container d-flex flex-column gap-3" id="accordionExample">
+      <div class="accordion-item bg-transparent r-10 overflow-hidden" data-aos="fade-up" data-aos-duration="1000">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            ماهى الخطوات التى اتبعها للحصول على الجائزة ؟
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن
+            تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.إذا كنت تحتاج
+            إلى
+            عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء
+            لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العمي
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item bg-transparent r-10 overflow-hidden" data-aos="fade-up" data-aos-duration="1000"
+        data-aos-delay="100">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            ماهى الخطوات التى اتبعها للحصول على الجائزة ؟
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن
+            تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.إذا كنت تحتاج
+            إلى
+            عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء
+            لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العمي
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item bg-transparent r-10 overflow-hidden" data-aos="fade-up" data-aos-duration="1000"
+        data-aos-delay="200">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            ماهى الخطوات التى اتبعها للحصول على الجائزة ؟
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن
+            تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.إذا كنت تحتاج
+            إلى
+            عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء
+            لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العمي
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item bg-transparent r-10 overflow-hidden" data-aos="fade-up" data-aos-duration="1000"
+        data-aos-delay="300">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            ماهى الخطوات التى اتبعها للحصول على الجائزة ؟
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن
+            تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.إذا كنت تحتاج
+            إلى
+            عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء
+            لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العمي
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item bg-transparent r-10 overflow-hidden" data-aos="fade-up" data-aos-duration="1000"
+        data-aos-delay="400">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            ماهى الخطوات التى اتبعها للحصول على الجائزة ؟
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن
+            تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.إذا كنت تحتاج
+            إلى
+            عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء
+            لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العمي
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Some Question -->
+  <!-- Start Footer -->
+  <section class="main-footer mt-5 bg-dark p-tb-50">
+    <div class="container text-white" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+      data-aos-duration="1000">
+      <div class="row justify-content-between align-items-center row-gap-5">
+        <div class="col-md-4 d-flex flex-column gap-3 align-items-center align-items-md-start">
+          <div class="logo">
+            <img src="assets/images/footer/footer-logo.svg" alt="" />
+          </div>
+          <p>
+            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+            هذا
+          </p>
+          <div class="icons d-flex gap-3 align-tems-center justify-content-center justify-content-md-start">
+            <a class="linked flex-c" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="instagram flex-c" href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="twitter flex-c"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="facebook flex-c"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="col-md-7 d-flex justify-content-between gap-2">
+          <div class="site d-flex flex-column gap-3">
+            <h2>الموقع</h2>
+            <ul class="p-0 d-flex flex-column gap-2">
+              <li><a href="#">سياسة الخصوصية الاسترجاع</a></li>
+              <li><a href="some-question.html">الاسئلة الشائعة</a></li>
+            </ul>
+          </div>
+          <div class="important-links d-flex flex-column gap-3">
+            <h2>روابط سريعة</h2>
+            <ul class="p-0 d-flex flex-column gap-2">
+              <li><a href="all-deals.html">الصفقات</a></li>
+              <li><a href="winners.html">الفائزين</a></li>
+              <li><a href="about-us.html">نبذة عنا</a></li>
+              <li><a href="contact-us.html">تواصل معنا</a></li>
+            </ul>
+          </div>
+          <div class="contact-us d-flex flex-column gap-3">
+            <h2>تواصل معنا</h2>
+            <div class="location d-flex gap-3 align-items-center">
+              <span class="flex-c">
+                <img src="assets/images/footer/icons/location.svg" alt="" />
+              </span>
+              <a href="#" class="flex-c">Dubai, Internet City</a>
+            </div>
+            <div class="sms d-flex gap-3 align-tems-center">
+              <span class="flex-c">
+                <img src="assets/images/footer/icons/sms.svg" alt="" />
+              </span>
+              <a href="#" class="flex-c">info@justbillion.com</a>
+            </div>
+            <div class="call d-flex gap-3 align-tems-center">
+              <span class="flex-c">
+                <img src="assets/images/footer/icons/Vector.svg" alt="" />
+              </span>
+              <a href="#" class="flex-c">+971 58 898 6612</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="end-footer pt-4 mt-4">
+      <div class="container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+        <div class="row text-white gap-3 gap-sm-0">
+          <div class="col-12 col-sm-6 text-center text-sm-start">
+            كل الحقوق محفوظة@ just billion
+          </div>
+          <div class="col-12 col-sm-6 d-flex justify-content-between justify-content-sm-end gap-2 gap-sm-4">
+            <a href="#">سياسة الخصوصية</a>
+            <a href="#">الشروط والاحكام</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- End Footer -->
+  <!-- ------------------------------JS------------------------------ -->
+  <!-- LottieFiles -->
+  <script src="assets/plugins/lottie.min.js"></script>
+  <!-- LottieFiles -->
+  <!-- Custom JS -->
+  <script src="assets/js/jquery-3.6.3.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <!-- Custom JS -->
+  <!-- Owl Slick  -->
+  <script src="assets/plugins/owl/owl.carousel.min.js"></script>
+  <!-- Owl Slick  -->
+  <!-- Font Awesome -->
+  <script src="assets/plugins/fontawesome-free-6.3.0-web/js/all.min.js"></script>
+  <!-- Font Awesome -->
+  <!-- Bootstrap Js -->
+  <script src="assets/plugins/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap Js -->
+  <!-- Aos Js -->
+  <script src="assets/plugins/aos-master/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Aos Js -->
+</body>
+
+</html>
